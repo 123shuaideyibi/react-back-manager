@@ -1,17 +1,26 @@
+/*
+    头像样式
+*/
+
 .portrait{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 50px auto;
     cursor: pointer;
 }
 
+/*照片*/
 img.portrait-image{
     width: 100px;
     height: 100px;
-    /*border: 3px solid green;*/
+    border: 4px solid white;
     border-radius: 50%;
 }
 
+/*昵称*/
 span.portrait-name{
     margin: 5px auto;
+    color: white;
 }

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './css/app.css'
-import Portrait from './Components/Left/Portrait'
-import LeftMenu from './Components/Left/LeftMenu'
 import TopMenu from "./Components/Top/TopMenu";
+import RightMain from "./Components/Main/RightMain";
+import LeftMenu from "./Components/Left/LeftMenu";
 
 //引入左侧导航栏
 
@@ -11,15 +11,14 @@ class App extends Component {
         return (
             <div className="app">
                 <div className="leftNav">
-                    {/*头像*/}
-                    <Portrait/>
-                    {/*左侧导航栏*/}
+                    {/*左侧区域*/}
                     <LeftMenu/>
                 </div>
                 <div className="rightMain">
-                    {/*顶部导航*/}
+                    {/*顶部区域*/}
                     <TopMenu/>
-                    <span>aaa</span>
+                    {/*内容区域*/}
+                    <RightMain/>
                 </div>
             </div>
         );

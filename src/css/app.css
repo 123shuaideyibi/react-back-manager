@@ -10,8 +10,9 @@
 .leftNav {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 240px;
     padding: 10px;
+    background: #3C3A3C;
 }
 
 /*右侧内容*/
