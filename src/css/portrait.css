@@ -1,0 +1,17 @@
+.portrait{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+img.portrait-image{
+    width: 100px;
+    height: 100px;
+    /*border: 3px solid green;*/
+    border-radius: 50%;
+}
+
+span.portrait-name{
+    margin: 5px auto;
+}
